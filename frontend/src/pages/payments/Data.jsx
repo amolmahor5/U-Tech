@@ -343,61 +343,60 @@ export const ACHPayment = [
     icon: "Wallet",
   } 
 ]
-
 export const FraudManagement = [
-    {
+  {
     title: "Fraud Detection Software",
     description:
       "We program advanced fraud detection analytics modules built with customized machine learning, data analysis algorithms, pattern recognition software, and more.",
-    icon: "CalendarCheck2",
+    icon: "ShieldAlert", // Emphasizes security alerts & protection
   },
   {
     title: "Built-In Risk Management Software",
     description:
-      "We implement risk management capabilities within existing fraud protection solutions to detect illegitimate and high-risk activities in real-time..",
-    icon: "AlertCircle",
+      "We implement risk management capabilities within existing fraud protection solutions to detect illegitimate and high-risk activities in real-time.",
+    icon: "ActivitySquare", // Represents monitoring, risk & data flow
   },
   {
     title: "Compliance Management Software",
     description:
       "We design automated compliance management software solutions to ensure that your business meets all regulatory standards associated with the financial industry.",
-    icon: "Wallet",
-  } 
-]
+    icon: "FileCheck2", // Reflects regulatory forms and compliance checks
+  },
+];
 
 export const LegalManagement = [
   {
-    icon: "Bot",
+    icon: "Wrench", // Symbolizes fixing and troubleshooting
     title: "Troubleshooting Payment Gateway Issues",
     description:
       "We have a proven troubleshooting process that includes thorough problem diagnosis and resolution methods including providing you with detailed insights on issues and how we fixed them, you’ll understand the issues better, make better preventative decisions, and still be able to provide your customers a smooth experience. Furthermore, we’ll also help you optimize your system for speed and reliability.",
   },
   {
-    icon: "BarChart3",
+    icon: "Headphones", // Represents customer service/support
     title: "Customer Payment Assistance",
     description:
       "At U Tech, you have various support channels that are ready to help you at any point during the payment process. Available for your convenience in a multitude of avenues, whether it’s via chat or emails, our responsive support teams are available 24/7 can help you navigate troubleshooting and resolve technical problems through communication and collaboration..",
   },
   {
-    icon: "MessageCircleCode",
+    icon: "LockKeyhole", // Represents secure transactions
     title: "Secure Transaction Support",
     description:
       "We program complete Legal Billing Software Solutions, integrated within your existing back-office systems, to offer automated batch invoice generation, editing, and approval to streamline accounting workflows.",
   },
   {
-    icon: "Link2",
+    icon: "Share", // Indicates integration and connectivity
     title: "Cross-Platform Payment Integration",
     description:
       "Reach your customers anywhere, regardless of platform with our cross-platform payment integrations. We’ll make sure that in today’s interconnected world, you’re offering a modernized customer experience while expanding your market opportunities. Our development experts can unlock the potential of a more efficient and comprehensive payment ecosystem – streamlining payment processes for you and your customers.",
   },
   {
-    icon: "SatelliteDish",
+    icon: "RefreshCw", // Indicates updates and ongoing maintenance
     title: "Payment Software Maintenance and Upgrades",
     description:
       "Maintaining payment software is equally important as its security. With performance and regulatory compliance demanding frequent updating and upgrading, we’ll provide these support services. Whether it’s running diagnosis, analyzing issues, fixing problems, or optimizing your software, with U Tech, you can rest assured that you’ll be running smoothly and up-to-date.",
   },
   {
-    icon: "Presentation",
+    icon: "HelpingHand", // Symbolizes support services
     title: "Point of Sale Support Services",
     description:
       "At U Tech, we pride ourselves in delivering tailored support. Whether it’s technical support or offering resources for you to innovate and achieve a reliable and efficient POS system – we’re here. Our developers can optimize your systems regardless of its complexities. Achieve seamless payment processes through modernized support for payment error resolution, gateway troubleshooting, and more.",
@@ -407,35 +406,35 @@ export const LegalManagement = [
 
 export const faqs = [
   {
-    question: "What is a financial system software?",
-    answer: "Financial system software is a custom program developed...",
+    question: "How does payment software work?",
+    answer: "Payment software uses encryption to secure transactions, and may rely on various payment methods such as credit/debit cards, bank transfers, SMS payments, mobile payments or digital wallets. When a payment is initiated, the software sends a request to the appropriate financial institution to transfer the funds. Once the transfer is complete, the software confirms the transaction and updates the relevant records.",
   },
   {
-    question: "What is the main threat of AI to the financial industry?",
-    answer: "Algorithmic errors that cause instability or security risks...",
+    question: "How does AI help prevent fraud in payment software?",
+    answer: "By analyzing transaction data and detecting patterns and anomalies that may indicate fraudulent activity. This analysis can then trigger alerts or flag transactions for review by a human analyst.",
   },
   {
-    question: "What features are available for financial software?",
-    answer: "Automated bookkeeping, secure transactions, analytics, etc...",
+    question: "Do you offer 24/7 support for payment software issues?",
+    answer: "Our dedicated team provides 24/7 support for any payment software issues you may encounter, maintaining uninterrupted financial transactions and user satisfaction.",
   },
   {
-    question: "How can financial applications assist any business?",
-    answer: "They help with accuracy, insights, and resource optimization...",
+    question: "What types of biometrics are used for payment authentication?",
+    answer: "Biometric payment authentication uses fingerprint recognition, facial recognition, iris scanning, voice recognition, palm vein recognition, and behavioral biometrics. These technologies enhance security and convenience, reducing fraud risks and enabling seamless, password-free transactions for businesses and consumers.",
   },
   {
-    question: "What are the challenges in implementing AI in finance?",
-    answer: "Regulatory compliance, privacy, unbiased analysis, etc...",
+    question: "Can you assist with payment gateway integration?",
+    answer: "Yes, we specialize in seamless payment gateway integration tailored to specific needs, ensuring secure and efficient transaction processing for your users..",
   },
   {
-    question: "What is the role of financial software in a startup?",
-    answer: "Tracking health, managing expenses, and aiding growth...",
+    question: "What is the difference between embedded payments and traditional payments?",
+    answer: "Embedded payments integrate seamlessly within software platforms, enabling frictionless transactions without redirecting users to external gateways. Traditional payments, in contrast, require separate processing steps, often leading to manual entry, delays, and a less streamlined user experience..",
   },
   {
-    question: "Which types of reporting and analytics are essential?",
-    answer: "Budget analysis, KPI metrics, and cash flow forecasting...",
+    question: "Is biometric payment authentication secure?",
+    answer: "Yes, biometric payment authentication is highly secure, as it utilizes unique biological characteristics, such as fingerprints or facial recognition. It reduces fraud risks, enhances customer convenience, and accelerates transactions by using encryption and multi-factor authentication for added security.",
   },
   {
-    question: "What assistance is provided during implementation?",
-    answer: "Needs assessment, integration, training, and post-support...",
+    question: "Can embedded payments be used for both online and offline transactions?",
+    answer: "Yes, integrated payments can be applied to both online and offline transactions. They readily interface with digital eCommerce platforms and POS systems for in-store purchases, improving convenience, security, and efficiency for both businesses and customers.",
   },
 ];
